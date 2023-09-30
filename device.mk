@@ -387,6 +387,11 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/oplus
 
+#Thermals
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0 \
+    android.hardware.thermal@2.0.vendor
+    
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
